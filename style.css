@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:darkgreen;
+    width: 100%;
+}
+.back-side{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 400px;
+    z-index: -1;
+    background-color: rgb(23, 187, 242);
+}
+.base{
+
+    width: 380px;
+    height: 30px;
+    position: absolute;
+    top: 190px;
+    left: -40px;
+    background-image: linear-gradient(to right, rgb(83, 79, 79), white, rgb(95, 93, 93) );
+    z-index: 1;
+}
+.white-hat{
+    width: 300px;
+    height: 220px;
+    position: absolute;
+    top: 200px;
+    left: 400px;
+    background-image: linear-gradient(to bottom, #36648b, #f7efef , #36648b );
+}
+.hat{
+    width: 0;
+    height: 0;
+    position: absolute;
+    top: -150px;
+    left: -70px;
+    border-top: 0 solid transparent;
+    border-right: 220px solid transparent;
+    border-bottom: 150px solid #36648b;
+    border-left: 220px solid transparent;
+}
+.belt{
+    width: 440px;
+    height: 15px;
+    position: absolute;
+    top: 0px;
+    left: -70px;
+    z-index: 1;
+    background-image: linear-gradient(to right, green, yellow, red );
+}
+.hat-second{
+    width: 0;
+    height: 0;
+    position: absolute;
+    top: -150px;
+    left: 40px;
+    border-top: 0 solid transparent;
+    border-right: 110px solid transparent;
+    border-bottom: 65px solid #36648b;
+    border-left: 110px solid transparent;  
+}
+.belt-second{
+    width: 220px;
+    height: 10px;
+    position: absolute;
+    top: -85.5px;
+    left: 40px;
+    background-color: rgb(134, 22, 22); 
+}
+P{
+    font-size: 10px;
+    text-align: center;
+    margin-bottom: 2.5px;
+    color: hsl(0, 13%, 95%);
+}
+.door{
+    width: 80px;
+    height: 90px;
+    position: absolute;
+    top: 100px;
+    right: 40px;
+    background-image: linear-gradient(to bottom, rgb(249, 246, 246) , brown, brown );
+}
+.door-mid{
+    width: 2px;
+    height: 90px;
+    position: absolute;
+    top: 0px;
+    left: 40px;
+    background-image: linear-gradient(to bottom, rgb(249, 246, 246) , rgb(108, 11, 11), rgb(108, 11, 11) );
+}
+.window-left{
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 60px;
+    left: 30px;
+    background-image: linear-gradient(to bottom, brown,rgb(249, 246, 246));
+}
+.window-left-mid{
+    width: 2px;
+    height: 60px;
+    position: absolute;
+    top: 0px;
+    left: 30px;
+    background-image: linear-gradient(to bottom, rgb(108, 11, 11),rgb(249, 246, 246));
+}
+
+.window-right{
+    width: 30px;
+    height: 60px;
+    position: absolute;
+    top: 65px;
+    right: 0px;
+    background-image: linear-gradient(to right, rgb(249, 246, 246), brown);
+}
+.window-right-mid{
+    width: 2px;
+    height: 60px;
+    position: absolute;
+    top: 0px;
+    right: 7px;
+    background-image: linear-gradient(to right, rgb(249, 246, 246), rgb(95, 9, 9));
+}
+.colon-left{
+    width: 20px;
+    height: 220px;
+    position: absolute;
+    top: 0;
+    left: -35px;
+    background-image: linear-gradient(to right, gray, white, gray );
+}
+.colon-middle{
+    width: 20px;
+    height: 220px;
+    position: absolute;
+    top: 0;
+    left: 150px;
+    background-image: linear-gradient(to right, gray, white, gray );
+}
+.colon-right{
+    width: 20px;
+    height: 220px;
+    position: absolute;
+    top: 0;
+    right: -35px;
+    background-image: linear-gradient(to right, gray, white, gray );
+}
+.v-cross{
+    width: 10px;
+    height: 50px;
+    position: absolute;
+    top: -197px;
+    left: 145px;
+    background-color: #36648b;
+}
+.h-cross{
+    width: 40px;
+    height: 10px;
+    position: absolute;
+    top: -180px;
+    left: 130px;
+    z-index: 2;
+    background-color: #36648b;
+}
+@media screen and (max-width:600px) {
+    .white-hat{
+        left: 50px;
+
+    } 
+}
